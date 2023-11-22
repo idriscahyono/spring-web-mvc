@@ -1,0 +1,26 @@
+POST http://localhost:8081/api/person
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Idris",
+  "lastName": "Cahyono",
+  "email": "idris@idriscahyono.com",
+  "phone": "+62895338083588",
+  "address": {
+    "street": "Indonesia",
+    "city": "Indonesia",
+    "country": "Indonesia",
+    "postalCode": "Indonesia"
+  },
+  "hobbies": [
+    "GYM",
+    "Coding"
+  ],
+  "socialMedias": [
+    {
+      "name": "Instagram",
+      "location": "instagram.com/idriscahyonoo"
+    }
+  ]
+}
